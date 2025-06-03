@@ -69,6 +69,26 @@ Timestamp,Nivel
 
 
 ---
+🔄 Fluxograma do Sistema
+A imagem abaixo ilustra o fluxograma do funcionamento do sistema de monitoramento de nível de água. Ele descreve passo a passo a lógica implementada no código Arduino, desde a inicialização dos componentes até a identificação de riscos de enchente e o registro dos eventos na EEPROM.
+
+Cada decisão e ação é baseada na média de 10 leituras dos sensores de presença, que estão posicionados em diferentes alturas. Dependendo do número de sensores ativados, o sistema classifica a situação em quatro níveis de risco:
+
+Sem risco (LED Verde): Nenhum sensor detecta água.
+
+Risco baixo (LED Amarelo): Apenas o sensor mais inferior detecta água.
+
+Risco alto (LED Laranja): Dois sensores detectam água.
+
+Enchente iminente (LED Vermelho): Todos os sensores detectam presença de água.
+
+Após cada verificação, o nível de alerta e o horário são salvos na memória EEPROM para futuras análises ou exportação via porta serial.
+
+Esse fluxograma facilita o entendimento do comportamento do sistema, tornando o projeto mais acessível para manutenção, expansão ou simulação.
+
+![image](https://github.com/user-attachments/assets/4fefd051-fd71-4e9c-b756-a7934d177663)
+
+---
 
 ## 🧪 Simulação no Wokwi
 
