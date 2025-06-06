@@ -86,7 +86,7 @@ Após cada verificação, o nível de alerta e o horário são salvos na memóri
 
 Esse fluxograma facilita o entendimento do comportamento do sistema, tornando o projeto mais acessível para manutenção, expansão ou simulação.
 
-![image](https://github.com/user-attachments/assets/4fefd051-fd71-4e9c-b756-a7934d177663)
+![image](![Fluxograma](https://github.com/user-attachments/assets/33fa7547-8c33-406e-a71c-862f89d025db))
 
 ---
 
