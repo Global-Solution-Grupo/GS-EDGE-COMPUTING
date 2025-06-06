@@ -86,7 +86,7 @@ Após cada verificação, o nível de alerta e o horário são salvos na memóri
 
 Esse fluxograma facilita o entendimento do comportamento do sistema, tornando o projeto mais acessível para manutenção, expansão ou simulação.
 
-![image](![fluxograma2](https://github.com/user-attachments/assets/2e7b23e0-fe55-4857-b5f1-a1375a60a8a7))
+![Fluxograma do sistema](fluxograma2.png)
 ---
 
 ## 🧪 Simulação no Wokwi
